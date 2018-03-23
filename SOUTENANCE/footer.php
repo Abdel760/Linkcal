@@ -10,7 +10,7 @@
             </ul>
         </div>
         <div class="col">
-            <h1>Paiment</h1>
+            <h1>Paiement</h1>
             <ul>
                 <li><i class="fab fa-cc-visa"></i></li>
             </ul>
@@ -29,8 +29,14 @@
         <div class="col social">
             <h1>Social</h1>
             <ul>
-                <li><img src="https://svgshare.com/i/5fq.svg" width="32" style="width: 50px;"></li>
-                <li><img src="https://svgshare.com/i/5eA.svg" width="32" style="width: 50px;"></li>
+
+                <a href="https://www.facebook.com/Linkcal-187159458562871/" target="_blank">
+                    <img src="https://svgshare.com/i/5fq.svg" width="32" style="width: 50px;">
+                </a>
+
+                <a href="https://twitter.com/Link_Cal" target="_blank">
+                    <img src="https://svgshare.com/i/5eA.svg" width="32" style="width: 50px;">
+                </a>
 
             </ul>
         </div>

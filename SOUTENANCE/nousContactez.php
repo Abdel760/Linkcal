@@ -32,7 +32,71 @@
 
 
 
-    <p>NOUS CONTACTEZ</p>
+    <main class="container">
+
+        <!-- En-Tête de Présentation -->
+        <header class="row">
+            <div class="contact col-xs-12">
+                <h1>Nous Contacter</h1>
+            </div>
+        </header>
+
+        <section class="row">
+
+            <!-- Début du Formulaire -->
+            <div class="col-xs-12">
+                <form id="contact" action="" class="form-horizontal">
+                    <fieldset>
+
+                        <!-- Nom du Formulaire -->
+                        <legend></legend>
+
+                        <!-- Nom -->
+                        <div class="form-group">
+                            <label for="nom" class="col-md-3 control-label">Nom</label>
+                            <div class="col-md-8">
+                                <input type="text" name="nom" id="name" class="form-control" placeholder="Nom">
+                            </div>
+                        </div>
+
+                        <!-- Prénom -->
+                        <div class="form-group">
+                            <label for="prenom" class="col-md-3 control-label">Prénom</label>
+                            <div class="col-md-8">
+                                <input type="text" name="prenom" id="firstname" class="form-control" placeholder="Prénom">
+                            </div>
+                        </div>
+
+                        <!-- Email -->
+                        <div class="form-group">
+                            <label for="email" class="col-md-3 control-label">Email</label>
+                            <div class="col-md-8">
+                                <input type="email" name="email" id="email" class="form-control" placeholder="Email">
+                            </div>
+                        </div>
+
+                        <!-- Texte -->
+                        <div class="form-group">
+                            <label for="text" class="col-md-3 control-label">Message</label>
+                            <div class="col-md-8">
+                                <textarea type="text" name="text" id="text" class="form-control" placeholder="Ecrivez votre message"></textarea>
+                            </div>
+                        </div>
+
+                        <!-- Bouton d'Envoi -->
+                        <div class="form-group">
+                            <div class="col-xs-9 col-xs-offset-3">
+                                <button type="submit" class="btn btn-primary" value="Ajouter le Contact">Envoyer</button>
+                            </div>
+                        </div>
+
+                    </fieldset>
+                </form>
+            </div>
+            <!-- Fin du Formulaire -->
+        </section>
+
+    </main>
 
 
 

@@ -36,7 +36,7 @@
             <div class=" col-xs-12 col-lg-12 banner">
                 <div align="center" class="intro">
                    <span>DES PRODUITS BIO LIVRE CHEZ VOUS</span>
-                      <form action="post">
+                      <form method="POST" action="accueil.php">
                            <input id="code_postal" type="text" placeholder="Votre code postal"><button  type="submit"><i class="fas fa-search"></i></button>
                       </form>
                 </div>
